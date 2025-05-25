@@ -11,7 +11,11 @@ public class Order {
 	public String getOrderDetails() {
 		return orderDetails;
 
+<<<<<<< HEAD
 		//takistesttake2
+=======
+		//takistest123456787890 tatasdasd
+>>>>>>> branch 'master' of https://github.com/mikemigdl/Team09_Systems_Analysis_and_Design.git
 	}
 	public int getOrderQuantity() {
 		return orderQuantity;
