@@ -11,7 +11,6 @@ public class Order {
 	public String getOrderDetails() {
 		return orderDetails;
 
-		//takistest123456787890
 	}
 	public int getOrderQuantity() {
 		return orderQuantity;
