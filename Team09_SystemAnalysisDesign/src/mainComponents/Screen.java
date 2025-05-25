@@ -2,7 +2,7 @@ package mainComponents;
 
 public class Screen {
 
-	protected int width, height; //Τυπικα για επεκταση με GUI
+	protected int width, height; //οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ GUI
 	protected String title;
 	
 	public Screen(String aTitle) {
@@ -12,10 +12,11 @@ public class Screen {
 
 	public void showMessage(String aMessage) {
 		System.out.println(aMessage);
-	}
+	} 
+	//sdaasdasd
 
 	public void displayScreen() {
-		//Τυπικα για επεκταση με GUI
+		//οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ GUI
 	}
 	
 	public String getTitle() {
