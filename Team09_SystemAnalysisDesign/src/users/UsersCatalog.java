@@ -21,8 +21,22 @@ public class UsersCatalog {
 		return aUser;
 	}
 
-	public void validateCredentials(String username, String password) {
-
+	public User validateCredentials(String username, String password) {
+		User userFound = null;
+		
+		for(int i=0; i<usersList.size(); i++) {
+			if(usersList.get(i).getUsername().equals(username)) { //username validated
+				if(usersList.get(i).getPassword().equals(password)){ //password validated
+					userFound = usersList.get(i);
+					break;
+				} else { //username validated, password not validated
+					userFound = new User(username, "wrong password", "", ""); //dummy user
+					break;
+				}
+			}
+		}
+		
+		return userFound;
 	}
 
 }
