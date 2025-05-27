@@ -1,3 +1,13 @@
+/accounting/
+/companyInfo/
 /mainComponents/
 /orders/
+<<<<<<< HEAD
+=======
+/products/
+/recommendations/
+/sales/
+/shipments/
+/stock/
+>>>>>>> branch 'master' of https://github.com/mikemigdl/Team09_Systems_Analysis_and_Design.git
 /users/

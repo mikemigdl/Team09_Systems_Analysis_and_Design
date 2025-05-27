@@ -8,7 +8,7 @@ public class FruitCatalog {
 	
 	public boolean validateFruitName(String name) {
 
-		return false;
+		return false; //
 	}
 
 }
