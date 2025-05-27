@@ -13,7 +13,6 @@ public class Screen {
 	public void showMessage(String aMessage) {
 		System.out.println(aMessage);
 	} 
-	//sdaasdasd
 
 	public void displayScreen() {
 		//������ ��� �������� �� GUI
