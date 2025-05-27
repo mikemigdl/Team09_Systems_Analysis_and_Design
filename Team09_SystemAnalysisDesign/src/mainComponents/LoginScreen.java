@@ -20,7 +20,7 @@ public class LoginScreen extends Screen {
 		this.getCredentials();
 	}
 
-	public boolean getCredentials() {
+	public boolean getCredentials() { //
 		boolean credentials = false;
 		Scanner input = new Scanner(System.in);
 		
